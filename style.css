@@ -1,0 +1,265 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.aboutus {
+    text-decoration: underline;
+}
+
+.ouroffer {
+    text-decoration: underline;
+}
+
+.headerdot {
+    text-align: center;
+    font-size: 155px;
+    color: #593196;
+    margin-top: 360px;
+}
+
+.headerdesc {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    margin-top: 360px;
+}
+
+#container {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.imgnav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 1910px;
+    height: 50px;
+}
+
+#navbar {}
+
+#ourstaff {
+    display: flex;
+    justify-content: center;
+}
+
+.staffmember {
+    border-radius: 50%;
+    float: left;
+}
+
+.staffmemimg {
+    border : 7px solid white;
+    -webkit-transition : border 500ms ease-out;
+    -moz-transition : border 500ms ease-out;
+    -o-transition : border 500ms ease-out;
+    transition : border 500ms ease-out;
+}
+
+.staffmemimg:hover {
+    border : 7px solid #593196;
+}
+
+.navdsc {
+    font-size: 25px;
+    position: fixed;
+    top: 10px;
+    right: 150px;
+    cursor: pointer;
+}
+
+.navself {
+    font-size: 25px;
+    position: fixed;
+    top: 10px;
+    right: 290px;
+    cursor: pointer;
+}
+
+#header {
+    text-align: center;
+    color: white;
+    margin-top: 350px;
+}
+
+#offer {
+    font-size: 40px;
+    color: white;
+    margin-top: 400px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navhead {
+    color: white;
+    font-size: 35px;
+    position: fixed;
+    top: 5px;
+    left: 150px;
+}
+
+#content {
+    font-size: 40px;
+    color: white;
+    margin-top: 470px;
+    text-align: center;
+}
+
+#paymentt {
+    font-size: 50px;
+    color: white;
+    margin-top: 290px;
+    text-align: center;
+}
+
+#content2 {
+    font-size: 30px;
+    color: white;
+    margin-top: 270px;
+    text-align: center
+}
+
+#footer {
+    margin-top: 10px;
+    text-align: right;
+    color: #593196;
+}
+
+#footer2 {
+    text-align: center;
+    margin-top: 90px;
+    color: #593196;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #593196;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #723ec1;
+}
+
+.discord {
+    font-size: 45px;
+    text-decoration: none;
+}
+
+.header {
+    font-size: 155px;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.oferta1 {
+    text-align: center;
+    text-decoration: none;
+}
+
+.oferta2 {
+    text-align: center;
+    text-decoration: none;
+}
+
+.oferta3 {
+    text-align: center;
+    text-decoration: none;
+}
+
+.oferta1:hover {
+    width: 400px;
+    text-decoration: none;
+}
+
+.oferta2:hover {
+    width: 400px;
+    text-decoration: none;
+}
+
+.oferta3:hover {
+    width: 400px;
+    text-decoration: none;
+}
+
+a:hover {
+    transition: color 0.5s;
+    color: gray;
+}
+
+#howtobuy {
+    text-align: center;
+    font-size: 35px;
+}
+
+body {
+    margin: 0;
+    background-color: #16161f;
+    background-attachment: fixed;
+}
+
+hr {
+    width: 200px;
+    color: #00EAFF;
+    border-radius: 80%;
+}
+
+.container-loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    border: 5px solid;
+    color: mediumvioletred;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: loader 1.5s linear infinite;
+}
+
+@keyframes loader {
+    25% {
+        color: deeppink;
+    }
+
+    50% {
+        color: blueviolet;
+    }
+
+    75% {
+        color: darkviolet;
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* Author: Mayeraneq#0001 /*
+/* Copyright netblx.cf / netblx.ct8.pl / netblx.tk */
